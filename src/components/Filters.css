@@ -10,3 +10,11 @@
     display: flex;
     gap: 1rem;
   }
+
+  .sliderPur {
+    accent-color:rgba(191, 123, 255, 0.78);
+  }
+
+  .selectOptions option:hover {
+    background-color: purple;
+  }

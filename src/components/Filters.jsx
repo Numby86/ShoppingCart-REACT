@@ -33,12 +33,13 @@ export function Filters () {
                     max='1000'
                     onChange={handleChangeMinPrice}
                     value={filters.minPrice}
+                    className='sliderPur'
                 />
                 <span>{filters.minPrice}€</span>
             </div>
             <div>
                 <label htmlFor={categoryFilterId}>Categoria</label>
-                    <select id={categoryFilterId} onChange={handleChangeCategory}>
+                    <select className='selectOptions' id={categoryFilterId} onChange={handleChangeCategory}>
                         <option value='all'>Todas</option>
                         <option value='laptops'>Portátiles</option>
                         <option value='smartphones'>Móviles</option>
